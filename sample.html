@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>20190723_liquid</title>
+        <link href="sty_1.css" rel="stylesheet"> 
+    </head>
+    <div class="box">
+        <h1>Raindrops</h1>
+        <p><a href="https://daniellaharel.com/raindrops/">Website</a></p>
+    </div>
+    </div>
+    <div class="sample"></div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="raindrops.js"></script>
+    <script>
+    $(function(){
+        $('.sample').raindrops();
+    });
+    </script>
+    <script>
+    $(function(){
+    $('#test-01').raindrops(
+        {color:'#99d4a5',canvasHeight:200}
+    );
+    });
+    </script>
+</html>
